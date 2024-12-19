@@ -45,7 +45,7 @@ export function DataSourceCategories({ categories, onClickDataSourceType }: Prop
 
       {/* Find more */}
       <div className={styles.more}>
-        <LinkButton variant="secondary" href={moreDataSourcesLink} onClick={handleClick} target="_self" rel="noopener">
+        <LinkButton variant="secondary" href={moreDataSourcesLink} onClick={handleClick} rel="noopener">
           Find more data source plugins
         </LinkButton>
       </div>
